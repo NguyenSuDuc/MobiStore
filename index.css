@@ -1,0 +1,319 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    background-color: rgb(184, 145, 184);
+    position: fixed;
+    top: 0px;
+    opacity: 0.8;
+    z-index: 999;
+    margin-top: 0%;
+    border-bottom: 4px solid #0b0c0e;
+
+}
+nav>div{
+    display:flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.col10{
+    width:10%;
+    margin-top: 10px;
+}
+.col10>a{
+    width: 100%;
+}
+.col90{
+    width:80%;
+}
+.col90 a:hover{
+    border-bottom: 3px solid;
+}
+.timkiem{
+    width: 30%;
+    display: block;
+    margin-top: 50px;
+}
+.timkiem>input{
+    padding: 3px;
+}
+nav img{
+    width: 100%;
+    border-radius: 20%;
+}
+nav ul{
+   display: flex; 
+   width: 90%;
+   padding: 50px;
+   margin: 0 auto;
+   justify-content: space-around;
+   text-align: center;
+}
+nav li{
+    list-style-type: none;
+    border-right: 1px solid white; 
+}
+nav li:last-child{
+    border-right: none; 
+}
+nav a{
+    text-decoration: none;
+    color:#200101;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+nav a:hover{
+    color: #0772bb
+}
+header{
+    margin-top: 110px;
+}
+.anh-nen{
+    width:100%;
+
+}
+.anh-nen>img{
+    width: 100%;
+    height: 900px;
+}
+.anh-nen5{
+    width: 100%;
+}
+.anh-nen5>img{
+    margin-top: 18px;
+    width: 100%;
+    height: 900px;
+}
+/* sanpham */
+section .san-pham{
+    width: 100%;
+}
+.san-pham>a{
+    margin-block-start: 0.67em;
+    font-size: 2rem;
+    background-color: palegoldenrod;
+    display: block;
+    text-align: center;
+    margin-block-end: 0.67em;
+    font-weight: bold;  
+    border-style:solid;  
+}
+section .iteams{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.item{
+    width:calc(100% / 3);
+    box-sizing: border-box;
+    padding:5px;
+    position: relative;
+    text-align: center;
+}
+.item>div{
+    border:2px solid gray;
+    padding:30px;
+    border-radius: 20px;
+}
+.item img{
+    width:100%;
+    transition: transform ease 1.5s;
+}
+.new{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    position:absolute;
+    right: 20px;
+    top: 20px;
+}
+.item img:hover{
+    transform: scale(0.7);
+}
+.item>div{
+    overflow: hidden;
+}
+section a{
+    text-decoration: none;
+    font-size: 20px;
+}
+section p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu{
+    color: white;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 40px;
+    width: 100%;
+    display:flex;
+    background-color:#0772bb
+}
+.dia-diem{
+
+    margin-left: 30px;
+    width: 30%;
+}
+.dia-diem>div>a{
+    font-weight: bold;
+}
+.GT{
+    width: 30%;
+}
+.GT>div>a{
+    font-weight: bold;
+}
+.CS{
+    width: 30%;
+    margin-left: 30px ;
+}
+.CS>div>a{
+    font-weight: bold;
+}
+.col60{
+    width: 60%;
+    display: flex;
+}
+.hto{
+    width: 40%;
+    margin-left: 30px;
+}
+.hotro>div>a{
+    font-weight: bold;
+}
+.diem{
+    margin-bottom:10px;
+    border-bottom: 2px solid white; 
+}
+.gioithieu{
+    border-bottom: 2px solid white
+}
+.chinhsach{ 
+     border-bottom: 2px solid white;
+
+}
+.hotro{
+    border-bottom: 2px solid white;
+}
+.thongtin>h2{
+    text-align: center;
+    text-shadow: 2px 2px 2px  rgb(141, 141, 214);
+    font-size: 1.8rem;
+}
+.Menu1{
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+
+}
+.Thongtin input{
+    width: 100%;
+    height: 10px;
+    padding: 15px;
+    margin: 5px;
+}
+.Nhap{
+    width: 15%;
+    margin: 0 10%;
+    padding: 20px;
+    margin: 10px 30px 60px;
+}
+header.baomat{
+    margin-top: 180px;
+}
+.Thongtin{
+    width: 50%;
+}
+.Nhap p{
+    margin: 32px;
+}
+.gui{
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(41, 38, 38);
+    cursor: pointer;
+}
+.Thongtin button:hover{
+    background-color: black;
+}
+.phan-hoi{
+    display: flex;
+    width: 90%;
+    padding:0% 5% ;
+    margin-bottom: 200px;
+    margin-top: 180px;
+}
+.cam-on{
+    width: 60%; 
+}
+.nhan>p{
+    background-color: #ccefd0;
+    margin: 0;
+    padding: 20px;
+    border-color: #b8e9bd;
+}
+.cam-on>div>a{
+    font-size: 2rem;
+    font-weight: normal   
+}
+#gototop{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background-color: white;
+    z-index: 999;
+    border: 2rem;
+    border-radius: 10px;
+}
+header.Dangnhap-Dangki{
+    margin-top: 180px;
+    margin-block-end: 100px;
+}
+.NHAP>input{
+    width: 29.7%;
+    height: 10px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 34%;
+}
+.DN-DK{
+    text-align: center;
+}
+.DN-DK>button{
+    width: 32%;
+    background-color: rgb(53, 53, 230);
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.DN-DK button:hover{
+    background-color: blue;
+}
+.QuenMK>a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(53, 53, 230);
+}
+.QuenMK a:hover{
+    color: blue;
+}
+.QuenMK{
+    text-align: center;
+}
